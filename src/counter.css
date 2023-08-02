@@ -1,0 +1,6 @@
+.abc{
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
