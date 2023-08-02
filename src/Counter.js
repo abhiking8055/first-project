@@ -3,7 +3,11 @@ import "./counter.css";
 const Counter = () => {
   const [num, setnum] = useState(0);
 
-  function increment() {
+  // function increment() {
+  //   setnum((a) => a + 1);
+  // }
+
+  const increment=()=>{
     setnum((a) => a + 1);
   }
 
